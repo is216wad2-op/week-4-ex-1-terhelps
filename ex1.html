@@ -33,7 +33,7 @@
                     msg += "Age must be between 10 to 40\n";
                 }
 
-                if (email.indexOf("@") == -1){
+                if (!email.includes("@")){
                     msg += "Email must contain '@'\n";
                 }
 
